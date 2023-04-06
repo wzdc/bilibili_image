@@ -1,5 +1,5 @@
 <?php
-include('lzy/simple_html_dom.php');
+include('simple_html_dom.php');
 //header("Access-Control-Allow-Origin:*"); //接受所有访问（似乎不需要）
 if(is_Mobile()&&isset($_REQUEST["mobile_search"])&&$_REQUEST["mobile_search"])
 $q=urlencode($_REQUEST["mobile_search"]);
